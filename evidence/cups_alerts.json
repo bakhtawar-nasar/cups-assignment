@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-11-15 13:13:42",
+    "alert_type": "Printer Advertisement Detected",
+    "severity": "LOW",
+    "src_ip": "172.30.28.54",
+    "dst_ip": "172.21.0.2",
+    "details": "IP 172.30.28.54 sent a printer discovery announcement. Payload preview: b'0 3 http://172.30.28.54:12345/printers/NAME \"Office HQ\" \"Printer\"'",
+    "packet_summary": "Ether / IP / UDP 172.30.28.54:57737 > 172.21.0.2:631 / Raw"
+  },
+  {
+    "timestamp": "2026-11-15 13:13:42",
+    "alert_type": "Printer Advertisement Detected",
+    "severity": "LOW",
+    "src_ip": "172.30.28.54",
+    "dst_ip": "172.21.0.2",
+    "details": "IP 172.30.28.54 sent a printer discovery announcement. Payload preview: b'0 3 http://172.30.28.54:12345/printers/NAME \"Office HQ\" \"Printer\"'",
+    "packet_summary": "Ether / IP / UDP 172.30.28.54:45718 > 172.21.0.2:631 / Raw"
+  },
+  {
+    "timestamp": "2026-11-15 13:13:42",
+    "alert_type": "Malformed / Suspicious Protocol Field",
+    "severity": "HIGH",
+    "src_ip": "172.30.28.54",
+    "dst_ip": "172.30.16.1",
+    "details": "Packet contains suspicious keyword: 'FoomaticRIPCommandLine'. This may indicate a command injection attempt via a crafted IPP printer attribute (CVE-2024-47175).",
+    "packet_summary": "Ether / IP / TCP 172.30.28.54:12345 > 172.30.16.1:53593 FPA / Raw"
+  },
+  {
+    "timestamp": "2026-11-15 13:13:42",
+    "alert_type": "Malformed / Suspicious Protocol Field",
+    "severity": "HIGH",
+    "src_ip": "172.30.28.54",
+    "dst_ip": "172.30.16.1",
+    "details": "Packet contains suspicious keyword: 'FoomaticRIPCommandLine'. This may indicate a command injection attempt via a crafted IPP printer attribute (CVE-2024-47175).",
+    "packet_summary": "Ether / IP / TCP 172.30.28.54:12345 > 172.30.16.1:53594 FPA / Raw"
+  }
+]

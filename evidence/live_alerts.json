@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-11-15 13:24:06",
+    "alert_type": "Printer Advertisement Detected",
+    "severity": "LOW",
+    "src_ip": "127.0.0.1",
+    "dst_ip": "127.0.0.1",
+    "details": "IP 127.0.0.1 sent a printer discovery announcement. Payload preview: b'0 3 http://172.30.28.54:12345/printers/NAME \"Office HQ\" \"Printer\"'",
+    "packet_summary": "Ether / IP / UDP 127.0.0.1:38837 > 127.0.0.1:631 / Raw"
+  },
+  {
+    "timestamp": "2026-11-15 13:24:06",
+    "alert_type": "Printer Advertisement Detected",
+    "severity": "LOW",
+    "src_ip": "127.0.0.1",
+    "dst_ip": "127.0.0.1",
+    "details": "IP 127.0.0.1 sent a printer discovery announcement. Payload preview: b'0 3 http://172.30.28.54:12345/printers/NAME \"Office HQ\" \"Printer\"'",
+    "packet_summary": "Ether / IP / UDP 127.0.0.1:38837 > 127.0.0.1:631 / Raw"
+  }
+]

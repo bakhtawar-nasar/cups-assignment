@@ -1,0 +1,24 @@
+2026-11-15 19:13:52,128 INFO [2026-11-15 19:13:52] SENT: Standard packet #1 → 127.0.0.1:631 | 0 3 http://172.30.28.54:12345/printers/FAKE-PRINTER "Lab Room 1" "AttackerPrinter"
+2026-11-15 19:13:53,179 INFO [2026-11-15 19:13:53] SENT: Spoofed packet #1 → 127.0.0.1:631 | src=10.0.0.99
+2026-11-15 19:13:54,220 INFO [2026-11-15 19:13:54] SENT: Variation 1 (Standard)         → 0 3 http://172.30.28.54:12345/printers/FAKE-PRINTER "Lab Roo
+2026-11-15 19:13:55,233 INFO [2026-11-15 19:13:55] SENT: Variation 2 (Spoofed src IP)   → 0 3 http://172.30.28.54:12345/printers/SPOOFED-PRINTER "Serv
+2026-11-15 19:13:56,249 INFO [2026-11-15 19:13:56] SENT: Variation 3 (Non-standard port)→ 0 3 http://172.30.28.54:9999/printers/ODDPORT "Floor 2" "Odd
+2026-11-15 19:13:57,265 INFO [2026-11-15 19:13:57] SENT: Variation 4 (Malformed fields) → 0 3 http://172.30.28.54:12345/printers/MALFORMED "AAAAAAAAAA...
+2026-11-15 19:13:57,265 INFO Total packets sent: 6
+2026-11-15 19:13:58,345 INFO Response captured: Ether / IP / TCP 172.30.16.1:64376 > 172.30.28.54:12345 S
+2026-11-15 19:13:58,345 INFO Response captured: Ether / IP / TCP 172.30.16.1:64376 > 172.30.28.54:12345 A
+2026-11-15 19:13:58,345 INFO Response captured: Ether / IP / TCP 172.30.16.1:64376 > 172.30.28.54:12345 PA / Raw
+2026-11-15 19:13:58,345 INFO Response captured: Ether / IP / TCP 172.30.16.1:64376 > 172.30.28.54:12345 A
+2026-11-15 19:13:58,345 INFO Response captured: Ether / IP / TCP 172.30.16.1:64376 > 172.30.28.54:12345 FA
+2026-11-15 19:13:58,351 INFO PCAP saved: pcap_files/scapy_attack.pcap
+2026-11-15 19:55:18,210 INFO [2026-11-15 19:55:18] SENT: Standard packet #1 → 127.0.0.1:631 | 0 3 http://172.30.28.54:12345/printers/FAKE-PRINTER "Lab Room 1" "AttackerPrinter"
+2026-11-15 19:55:18,210 INFO Total packets sent: 1
+2026-11-15 19:55:28,287 INFO PCAP saved: pcap_files/before_mitigation.pcap
+2026-11-15 19:57:16,945 INFO [2026-11-15 19:57:16] SENT: Standard packet #1 → 127.0.0.1:631 | 0 3 http://172.30.28.54:12345/printers/FAKE-PRINTER "Lab Room 1" "AttackerPrinter"
+2026-11-15 19:57:16,945 INFO Total packets sent: 1
+2026-11-15 19:57:26,993 INFO Response captured: Ether / IP / TCP 172.30.16.1:50189 > 172.30.28.54:12345 A
+2026-11-15 19:57:26,994 INFO Response captured: Ether / IP / TCP 172.30.16.1:50189 > 172.30.28.54:12345 FA
+2026-11-15 19:57:26,997 INFO PCAP saved: pcap_files/before_mitigation.pcap
+2026-11-15 20:02:23,392 INFO [2026-11-15 20:02:23] SENT: Standard packet #1 → 127.0.0.1:631 | 0 3 http://172.30.28.54:12345/printers/FAKE-PRINTER "Lab Room 1" "AttackerPrinter"
+2026-11-15 20:02:23,392 INFO Total packets sent: 1
+2026-11-15 20:02:33,463 INFO PCAP saved: pcap_files/after_mitigation.pcap
